@@ -1,0 +1,107 @@
+body{
+background-color: black;
+}
+
+.container{
+margin: 3%;
+}
+
+.regalix-logo{
+text-align: center;
+margin-top: 5%;
+
+}
+
+.back-button{
+text-align: left;
+color: #95a4ba;
+font-family: "Inter Medium";
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+text-transform: uppercase;
+}
+
+.main-heading{
+text-align: left;
+color: #ffffff;
+font-family: "Inter";
+font-size: 28px;
+font-weight: 700;
+margin-top: 5%;
+}
+
+.description-paragraph{
+text-align: left;
+width: 863px;
+color: #ffffff;
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+margin-top: 2%;
+}
+
+.user-images{
+
+margin-top: 2%;
+}
+
+.sub-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+.video-container{
+    margin-right: 16px;
+}
+.question-tab{
+    width: 416px;
+    height: 540px;
+    border-radius: 10px;
+    margin-left: 16px;
+    background-color: #080b1e;
+    display: flex;
+    flex-direction: column;
+}
+.question-tab-header{
+    width: 416px;
+    height: 48px;
+    border-radius: 10px 10px 0 0;
+    background-color: #020b34;
+    text-align: center;
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    padding-top: 10px;
+}
+
+.question-tab-empty{
+    text-align: center;
+    opacity: 0.59;
+    color: #95a4ba;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-top: 220px;
+}
+.question-text{
+    color: white;
+    border: solid lightgray "0.5px" ;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.q-text{
+    background-color: #080b1e;
+    padding:5px;
+    height: 30px;
+    color: white;
+
+}
