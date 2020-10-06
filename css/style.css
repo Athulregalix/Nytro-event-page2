@@ -1,5 +1,7 @@
-body{
-background-color: black;
+body {
+  background-image: url("../images/bg.png");
+  /* background-size:contain ;
+  background-repeat:no-repeat ; */
 }
 
 .container{
@@ -125,8 +127,6 @@ margin-top: 2%;
     padding-top: 220px;
 }
 .question-text{
-    color: white;
-    border: solid lightgray "0.5px" ;
     margin-top: 220px;
     display: flex;
     flex-direction: column-reverse;
@@ -134,8 +134,12 @@ margin-top: 2%;
 
 .q-text{
     background-color: #080b1e;
-    padding:5px;
+    padding:10px;
     height: 30px;
     color: white;
+    border: solid #95a4ba 1px ;
+    border-left: none;
+    border-right: none;
+    border-bottom:none ;
 
 }
